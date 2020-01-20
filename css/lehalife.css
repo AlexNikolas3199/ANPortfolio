@@ -1,0 +1,48 @@
+@font-face{
+	font-family: "Evolventa";
+	src: url(../10359.ttf)
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Evolventa";
+	background: radial-gradient(#18ffff,#01579b);
+	min-height: 100vh
+}
+.activity{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	min-height: 100%
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color:#fff;
+	text-shadow: 2px 2px 4px black
+
+}
+.activitycard{
+	width: 400px;
+	margin: 30px;
+	background:#2196f3 ;
+	transition: .8s;
+	box-shadow:5px 5px  10px  black
+}
+.activitycard img{
+	width: 100%
+}
+.activitycard h2{
+	text-align: center;
+	text-transform: uppercase;
+	color:#fff;
+	text-shadow: 2px 2px 4px black
+}
+.harder{
+	background: #b71c1c ;
+}
+.activitycard:hover{
+	background: #3ACA18;
+}
